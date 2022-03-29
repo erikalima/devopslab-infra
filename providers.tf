@@ -16,3 +16,9 @@ provider "google" {
   region  = "us-west1"
   zone    = "us-west1-b"
 }
+
+provider "google-beta" {
+  project = "lab-devops-cloud-erika"
+  region  = "us-west1"
+  zone    = "us-west1-b"
+}
